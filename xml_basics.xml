@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<person> /// Start tag
+        <name>Chuck</name>
+        <phone type="intl"> /// type="intl" is an attribute
+        +1 734 303 4456 /// Text content
+        </phone> 
+
+        /// self closing with an attribute
+        /// hide="yes" is an attribute
+        <email hide="yes"/> 
+</person> ///end tag
